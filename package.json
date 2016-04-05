@@ -1,0 +1,44 @@
+{
+  "name": "nexthenify",
+  "version": "0.1.0",
+  "description": "Convert promises back to callbacks",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "gulp test",
+    "eslint-pre-commit": "./scripts/eslint-pre-commit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brinkbit/nexthenify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Brinkbit/nexthenify/issues"
+  },
+  "homepage": "https://github.com/Brinkbit/nexthenify#readme",
+  "keywords": [
+    "promise",
+    "then",
+    "unthenify",
+    "unpromisify"
+  ],
+  "author": "Brinkbit",
+  "license": "MIT",
+  "pre-commit": [
+    "eslint-pre-commit"
+  ],
+  "devDependencies": {
+    "brinkbit-style-es6": "^1.0.3",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "gulp": "^3.9.1",
+    "gulp-coverage": "^0.3.38",
+    "gulp-documentation": "^2.2.0",
+    "gulp-istanbul": "^0.10.4",
+    "gulp-mocha": "^2.2.0",
+    "isparta": "^4.0.0",
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.3",
+    "sinon-chai": "^2.8.0",
+    "sinon-mocha": "0.0.3"
+  }
+}

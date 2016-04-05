@@ -1,0 +1,21 @@
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Coverage html file
+coverage
+
+# OS files
+.DS_Store
+
+# Coverage
+coverage
+
+# Dependency directories
+node_modules
+bower_components
